@@ -1,5 +1,5 @@
 h3{
-    color: blue;
+    color: rgb(255, 0, 183);
     text-align: center;
     font-family: Arial, sans-serif;
 
@@ -7,7 +7,7 @@ h3{
 button{
     display: block;
     margin: 0 auto;
-    background-color: green;
+    background-color: rgb(128, 0, 85);
     color: white;
     padding: 10px 20px;
     border: none;
