@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+@font-face {
+    font-family: raju;
+    src: url(./Roomach-Regular.ttf);
+}
+@font-face {
+    font-family: mahi;
+    src: url(./NeueMachina-Regular_DQCmjH1st.ttf);
+}
+h2{
+    color: red;
+    background-color: skyblue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800px;
+    text-transform: capitalize;
+}
+
+p{
+    color: firebrick;
+    font-style: italic;
+    font-weight: 200px;
+    text-align: center;
+}
+#hero{
+    color: green;
+    background-color: aliceblue;
+}
+
+.para{
+    text-transform: uppercase;
+    text-decoration-color: aquamarine;
+    font-family: raju;
+}
+h1{
+    font-family: mahi;
+}
+
+div{
+    height: 100px;
+    width: 110px;
+    background-color: aqua;
+}
