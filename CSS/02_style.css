@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body, html{
+    height: 100px;
+    width: 100px;
+}
+
+/* div{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+} */
+
+#box1{
+    height: 200px;
+    width: 200px;
+    /* background:linear-gradient(to right, red 20%,blue ,green,yellow 50%); */
+    background: radial-gradient(red,green,yellow);
+    /* background: conic-gradient (red,green); */
+}
+#box2{
+ height: 200px;
+ width: 200px;
+ /* background-color: aquamarine; */
+ background-image: url(king_kholi.jpg);
+ background-size:cover;
+ background-position: center;
+}
+#outer{
+    height: 200px;
+    width: 100px;
+    background-color: aliceblue;
+}
+/* unplash free image */
+#inner{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+  
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom,red,green,blue);
+} */
+
+#last{
+    height: 200px;
+    width: 200px;
+    /* background: conic-gradient(red,green,yellow,blue,skyblue); */
+    background-color: aliceblue;
+
+    margin: 40px;
+    /* padding-left:20px */
+    padding: 50px;
+    
+
+}
+button{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 30px;
+    background-color: aquamarine;
+    border: 10px,solid,black;
+    border-radius: 20px;
+}
