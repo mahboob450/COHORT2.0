@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* koi bhi element jispe (position) nhi hai usper top left bottom and z-index kaam nhi kerta hai */
+#car1{
+    height: 200px;
+    width: 100px;
+    background-color: green;
+}
+/* koi v element per absolute lgane per wo uth jata hai,uski space khaali hoti hai and uski jaagh baad bala element aa jata hai */
+/* top left bottom right and z-index ye sirf kaam krti hai jab aapka element ke pash koee position ki value ho */
+
+#car2{
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#car3{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+#inner{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: fixed;
+    right: 0;
+}
+#microinner{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+
+}
+#actual{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+}
+
+#parent{
+    width: 100%;
+    height: 1200px;
+    background-color: wheat;
+}
+
+#sticky{
+    position: sticky;
+    top: 10%;
+    width: 100%;
+    height: 2000px;
+    background-color: #333;
+}
