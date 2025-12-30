@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+
+}
+
+ #parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid white;
+}
+
+.child:nth-child(2n-1){
+    background-color: green;
+} 

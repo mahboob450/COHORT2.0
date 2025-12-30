@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px; 
+
+/* grid-template-areas ka matlab hai:
+👉 page ko naam dekar boxes me todna */
+    grid-template-areas: "header header"
+                        "aside section"
+                        "footer footer"
+    ;
+    grid-gap: 10px;
+}
+/* fr unit (fraction) CSS Grid me use hoti hai
+ available space ko parts (fractions) me divide karne ke liye. */
+header{
+    background-color: lightgreen;
+    text-align: center;
+    color: black;
+   grid-area: header;
+}
+
+aside{
+    background-color: crimson;
+    text-align: center;
+    color: black;
+    grid-area: aside;
+}
+section{
+    background-color: blue;
+    text-align: center;
+    color: black;
+    grid-area: section;
+}
+footer{
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    grid-area: footer;
+}
