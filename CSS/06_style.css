@@ -33,8 +33,10 @@ button{
     border-radius: 5px;
     background-color: #4A2519;
     color: white;
+    border-radius: 50px;
 }
 button:hover{
     background-color: darkorange;
     transform: scale(1.05);
+    cursor: pointer;
 }

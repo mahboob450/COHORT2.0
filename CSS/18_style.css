@@ -24,7 +24,7 @@ main{
                         "aside section"
                         "footer footer"
     ;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 /* fr unit (fraction) CSS Grid me use hoti hai
  available space ko parts (fractions) me divide karne ke liye. */
@@ -33,6 +33,7 @@ header{
     text-align: center;
     color: black;
    grid-area: header;
+   padding-top: 20px;
 }
 
 aside{
