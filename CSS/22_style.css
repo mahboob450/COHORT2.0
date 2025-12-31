@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+/* units */
+/* px (pixel)-fixed
+% (percent) - depend on parent
+vw (viewport width)-depend on viewport's width */
+/* vh (viewport height)->depend on viewport's height */
+/* vmax (viewport maximum)-depend on maximum viewport jo v viewport maximum hai usko le lega */
+/* vmin (viewport minimum)- depend on minimum viewport */
+/* em -> acc to the Parent / current element  and controlled by parent*/
+/* rem ->According to the Root (html) ,font-size 1rem=16px */
+#parent{
+    height: 300px;
+    width: 400px;
+    background-color: crimson;
+    font-size: 30px;
+}
+h2{
+    font-size: 1em;
+}
+h4{
+    font-size: 1.5em;
+}
+h6{
+    font-size: .7em;
+}
+p{
+    font-size: 1.5rem;
+}
