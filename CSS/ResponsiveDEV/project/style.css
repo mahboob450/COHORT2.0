@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 60vw, 1fr, 1fr, 1fr;
+  grid-template-rows: 60%, 40%;
+  grid-template-areas: "leftdiv topright topright topright" "leftdiv bottomleft center bottomright";
+}
+main #leftdiv {
+  background-color: red;
+  grid-area: leftdiv;
+  border-radius: 10px;
+}
+main #topright {
+  background-color: green;
+  grid-area: topright;
+  border-radius: 10px;
+}
+main #leftdiv {
+  background-color: antiquewhite;
+  grid-area: leftdiv;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+main #bottomleft {
+  background-color: crimson;
+  grid-area: bottomleft;
+  border-radius: 10px;
+}
+main #center {
+  background-color: yellow;
+  grid-area: center;
+  border-radius: 10px;
+}
+main #bottomright {
+  background-color: purple;
+  grid-area: bottomright;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
