@@ -23,3 +23,4 @@ computer powerful hai unhe use krne se hum kaam jldi ker skte hai and unki langu
  history me kyuki js laghbhag completely badal gya
  matlab ki js ke issues and bugs and problems ko fix krne ke liye bhut saare naye updates diye gaye es6 version mein
 */
+//  js sirf browser ke liye banayi gayi thi
