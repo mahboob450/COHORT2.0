@@ -173,6 +173,86 @@ main{
     }
    
 }
+  section.view5{
+    width: 100%;
+     @include flex-column(1rem);
+        padding: 1rem;
+        .top{
+            width: 100%;
+            img{
+                width: 100%;
+                border-radius: .7rem;
+            }
+        }
+        .bottom{
+            background-color: rgba(105, 103, 103, 0.276);
+             padding: 1.9rem;
+            @include flex-column(3.5rem);
+            border-radius: 10px;
+            justify-content: space-between;
+             button{
+                    width: fit-content;
+                    border: none;
+                    outline: none;
+                    padding: .7rem 1rem ;
+                    border-radius: .7rem;
+                }
+            .text{
+                @include flex-column(0.7rem);
+                justify-content: space-around;
+
+                 h1{
+                    font-weight: 100;
+                    font-size:1rem ;
+                    text-transform: uppercase;
+                    opacity: .4;
+                }
+                p{
+                    font-weight: 100;
+                    font-size: 1.5rem;
+                    opacity: 1.6;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+                }
+               
+            }
+        }
+
+  }
+  section.view6{
+
+    width: 100%;
+    padding: 1rem ;
+    border-radius: 1rem;
+     @include flex-column(1rem);
+     .top{
+        width: 100%;
+        background-color: lightyellow;
+        @include flex-column(1rem);
+        border-radius: 1rem;
+         
+        .text{
+            padding: 1rem;
+            
+            @include flex-column(0rem);
+             h1{    font-weight: 500;
+                       font-size:1rem ;
+                       text-transform: uppercase;
+                       color: black;
+                       opacity: .7;
+                   }
+                   p{
+                       font-weight: 600;
+                       font-size: 2.5rem;
+                       opacity: 0.8;
+                       line-height: 1.2;
+                        color: black;
+                         text-transform: uppercase;
+   
+                   }
+        }
+     }
+  }
 }
 @media (min-width:900px){
     main{
@@ -226,6 +306,19 @@ main{
                 width: 33%;
                 aspect-ratio: 1/1.2;
             }
+        }
+        section.view5{
+            flex-direction: row;
+            padding: 1rem 4rem;
+            .top,.bottom{
+
+                width: 50%;
+            }
+        }
+        section.view6{
+            flex-direction: row;
+            padding: 1rem 4rem;
+            
         }
     }
 
