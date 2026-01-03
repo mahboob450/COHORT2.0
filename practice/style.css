@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: black;
+}
+main .top {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.507);
+  border-radius: 1rem;
+  height: 50vh;
+}
+main .bottom {
+  width: 100%;
+  background-color: green;
+  border-radius: 1rem;
+  height: 50vh;
+}
+
+@media (min-width: 900px) {
+  main {
+    flex-direction: row;
+    background-color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
