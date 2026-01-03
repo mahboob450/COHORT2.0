@@ -24,3 +24,21 @@ computer powerful hai unhe use krne se hum kaam jldi ker skte hai and unki langu
  matlab ki js ke issues and bugs and problems ko fix krne ke liye bhut saare naye updates diye gaye es6 version mein
 */
 //  js sirf browser ke liye banayi gayi thi
+// js browser pe chlti hai
+// hum index.html se connect krte hai js file ko
+// jab aapki html file chlegi tab he aapka js bhi chal jaayega
+
+// Why it is important- kyoki website pe animation -> interaction -> laghbhag haar prakaar ka koe engagement create kerne k liye js use hoti hai
+//  ctrl + shift + j ->shortcut to open console
+let a=5
+let b=9
+const c=99
+console.log(a+b)
+// c=90 /* throw an error*/
+console.log("hanhaa")
+ans=prompt("enter your name")
+console.log(ans)
+s="mahboob bhai app kaise ho"
+console.log(s.slice(2,7))
+
+// slice template-strings (template literal ``) split,slice , includes, replace
