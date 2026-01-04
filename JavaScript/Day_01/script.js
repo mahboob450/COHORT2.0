@@ -36,10 +36,19 @@ const c=99
 console.log(a+b)
 // c=90 /* throw an error*/
 console.log("hanhaa")
-ans=prompt("enter your name")
-console.log(ans)
-s="mahboob bhai app kaise ho"
-console.log(s.slice(2,7))
+ans=prompt("enter your name") // prompt se jo v loge wo ek string ban jayega
+age=prompt("enter age:") // age='22'
+alert(`welcome ${ans}`) 
+console.log(type(ans))
+let msg="my name is md mahboob alam"
+console.log(msg)
+
+// console.log(ans)
+// s="mahboob bhai app kaise ho"
+// console.log(s.slice(2,7))
+// s="mahbbob"
+// s="mashkoor"
+
 
 // slice template-strings (template literal ``) split,slice , includes, replace
 
