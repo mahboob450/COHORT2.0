@@ -42,3 +42,50 @@ s="mahboob bhai app kaise ho"
 console.log(s.slice(2,7))
 
 // slice template-strings (template literal ``) split,slice , includes, replace
+
+/*Data type->
+number:Integers aur decimals dono ke liye.
+let n=4
+let m=576.4
+
+Boolean: true ya false
+let isAns=true
+
+string:Text / characters ke liye.
+let s="mahboob alam"
+
+null:Intentional empty value.
+let data=null
+
+Undefined:Variable declare hai but value assign nahi hui.
+let x;
+console.log(x) // undefined
+
+BigInt:Bohot bade integers ke liye.
+let big=12234567878n;
+
+Symbol:Unique values (mostly advanced use).
+let id = Symbol("id");
+
+* Non-primitive data types
+Object:key-value pairs
+
+let person={
+name:"mahboob"
+age:22
+};
+
+Array:Multiple values ek variable me
+let arr = [1, 2, 3, 4];
+
+Function:Function v ek data type hai
+function greet(){
+return "hellow";
+}
+
+var a=[1,2,3,4];
+var b=a
+
+// primitives-jinki value direct copy kr skte hai
+reference - jinki value direct copy nahi ker skte
+*/
