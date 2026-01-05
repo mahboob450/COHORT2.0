@@ -1,9 +1,17 @@
 // Loops and conditional in javascript
-
-const { jsx } = require("react/jsx-runtime");
-
-// understanding condition operator in javascript -['if','else','if-else','else-if','ternart operator']
+// understanding condition operator in javascript -['if','else','if-else','else-if','ternart operator',switch-case]
 // for loop in js
+for(let i=0;i<6;i++){
+    console.log("hello mahboob")
+}
+for(let i=1;i<=10;i++){
+    console.log(i)
+}
+for(let i=10;i>0;i--){
+    console.log(i)
+}
+
+
 // while loop in js
 // do while loop 
 // forEach in js
