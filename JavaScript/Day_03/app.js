@@ -74,6 +74,8 @@ if(age===null){
         }
     }
 }
+
+
 // while loop in js
 // do while loop 
 // forEach in js
