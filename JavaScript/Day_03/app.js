@@ -76,11 +76,41 @@ if(age===null){
 }
 
 
-// while loop in js
+// while loop in js-> done 
+
 // do while loop 
-// forEach in js
+i=1;
+do{
+ console.log(i);
+ i++;
+}
+while(i<13);
+
+
+/* 
+//forEach in js
 // for in loop in js
 // for of loop in js
-// recursion in js
+above loops will be cover later
+*/
+// recursion in js->function calling itself
+function fun(n){
+    if(n===0) return
+    fun(n-1)
+    console.log(n-1)
+}
+fun(5)
+
 // loop control statement -['break','continue']
+for(let i=1;i<10;i++){
+    if(i==5) continue
+    console.log(i)
+}
+
+/*FUNCTION->piece of code used to perform specific task */
+
+function doSomethings(name,age,email){
+console.log(arguments)
+}
+doSomethings("mahboob",22,"mahboob@34");
 

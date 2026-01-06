@@ -126,7 +126,14 @@ while(num%2!==0){
 } 
 
 // 16.print numbers between two user inputs
-
+ let first=Number(prompt("enter first no:"))
+ let last=Number(prompt("enter last no:"))
+if(first>last){
+    console.error("start can not be bigger than end")
+}
+ for(let i=first;i<=last;i++){
+    console.log(i)
+ }
 // 
 
 // 17.print only first 3 odd numbers from 1 to 20
@@ -159,7 +166,7 @@ console.log(pos)
 let withdrawals = 0
 let balance = 1000
 
-while (withdrawals < 3) {
+while (balance>0 && withdrawals < 3) {
     let amount = Number(prompt("Enter amount you want to withdraw"))
 
     if (amount > balance) {
