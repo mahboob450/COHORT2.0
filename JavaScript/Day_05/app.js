@@ -102,5 +102,7 @@ delete obj.name;
 let obj2=new Object(); //This line creates an empty object in JavaScript.
 
 
-
+// Recognise how objects are stored,traverse keys of an object, array as object.
+// Timing events--setTimeout(),setInterval(),clearTimeout(),clearInterval()
+// operation in objects -[freeze ,seal, destructurig,object methods,this keyword]  ..>will be cover later
 
