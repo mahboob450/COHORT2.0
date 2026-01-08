@@ -94,4 +94,149 @@ setTimeout(function() {
 
 // 1.write a higher order function 'runTwice(fn)' that takes anoter function and executes it two times.
 
+function runTwice(fn){
+   fn();
+   fn();
+}
+
+runTwice(function(){
+    console.log("hello")
+})
+
+// 2.create one pure function that always returns the same output for given input , and one impure function using a global variable.
+let a=4
+function f(val){
+    console.log(val+2)
+}
+f(a)
+f(a)
+f(a)
+
+let global=0
+function impure(a){
+    global++;
+    console.log(a+global);
+}
+
+impure(2)
+impure(2)
+impure(2)
+
+// write a function that uses object destructuring inside parameters to extract and print name and age.
+
+
+person={
+    name:"mahboob",
+    age:22
+}
+function object({name,age}){
+    console.log(`${name} , ${age}`)
+}
+object(person)
+
+// Demonstrate the difference between noraml function and arrow function when used as object methods(this issue)
+
+// this keyword
+function ac(){
+    console.log(this) // window object
+}
+ac()
+
+let obj={
+    name:"mahboob",
+    fun:function(){
+        console.log(this); //this refers to obj
+    },
+};
+obj.fun(); //In an object method, this always refers to the object that calls the method.
+
+let obJ={
+    name:"mahboob",
+    fun:function(){
+        console.log(this); //this refers to obJ
+    },
+    fun2:()=>{
+        console.log(this); // arrow function apni this ki value parent se leta hai-> parent object here window object
+    }
+};
+obJ.fun();
+obJ.fun2();
+
+// 👉 Normal function me this = jo usse call karta hai
+// 👉 Arrow function me this = jo bahar hai (parent)
+
+let Obj = {
+    name: "Mahboob",
+    outer: function () {
+        const inner = () => {
+            console.log(this.name);
+        };
+        inner();
+    }
+};
+
+Obj.outer();
+// Final Rule (Yaad rakh bhai)
+// Object method (normal function) → this = object
+// Uske andar normal function → this = window
+// Arrow function → parent ka this
+
+// Given an array of numbers use map() to create a new array where each number is squared
+
+let ar=[1,2,3,4,5]
+
+let ans=ar.map((v)=>{
+  return v**v;
+})
+console.log(ans)
+
+// use filter() to get only even numbers from an array
+
+let even=ar.filter((val)=>{
+    return val%2===0
+//    if (val%2==0) return val;
+
+});
+
+// use reduce() method to find the total salary from an array of number [1000,2000,3000]
+li=[1000,2000,3000]
+let total_sal=li.reduce((val,x)=>{
+    return val+x;
+},0)
+
+// create an array of names and use some() and every() to test a condition (e.g all names longer than 3 chars).
+let names=["rahu","om","mahboob","fanraj"]
+
+// let anss=name.some(function (val){
+//     return val.length>3;
+// });
+let anss=name.every(function (val){
+    return val.length>3;
+});
+
+// create an object user and test the behavior of object . freeze() and object.seal() by adding/changing keys.
+
+let user={
+    name:"harsh",
+    age:33,
+    email:"nakj^^",
+};
+Object.freeze(user) // u cant't chnage anythings
+Object.seal(user) // u can chnage val but can't add anythings
+user.name="mahboob"
+
+// create a nested object (user -> address->city) and access the city name inside it.
+let obJJ={
+    user:{
+        name:"hamr",
+        address:{
+            city:"bhopal",
+        },
+    },
+};
+
+// destructing
+let {city}=obJJ.user.address;
+
+
 
