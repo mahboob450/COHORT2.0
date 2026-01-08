@@ -90,4 +90,8 @@ setTimeout(function() {
     console.log("Time's up")
 }, 2000);
 
+// Level 2-Functional thinking and logic tasks (intermediate)
+
+// 1.write a higher order function 'runTwice(fn)' that takes anoter function and executes it two times.
+
 
