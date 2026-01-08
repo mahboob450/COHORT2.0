@@ -16,7 +16,7 @@ computer powerful hai unhe use krne se hum kaam jldi ker skte hai and unki langu
  15-16 dino me 
  itni jaldi bani to kafi issues reh gaya
  jaldbaji ka kaam ho gya
- errors and bugs chut gya
+ errors and bugs chuuuut gya
  to unhe fix krte krte js ke bhut sare versions aye
  unme se ek sabse bda version aya jiska naam tha es6
  uske baad aur bhi version aye par es6 sabse bda change rha js ki 

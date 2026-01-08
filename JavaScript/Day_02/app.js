@@ -43,7 +43,10 @@ fun(1,2,3,4,5,5,6)
 null ?? console.log("sorry")
 // sorry
 
-10.optional chaining
+10.optional chaining :->Ye safely object ke deep properties access karne deta hai bina error throw kiye.
+obj.name ❌ exist nahi karta
+Error ❌ nahi aayega
+Output: undefined
 let obj={}
 obj?.name?.first;
 
@@ -67,7 +70,7 @@ let b=12
 */
 
 // Assignment 29oct
-// 1.Basic operators (Arithmetic , assignmeny , increment , decrement,comparison, logical, bitwise)
+// 1.Basic operators (Arithmetic , assignment , increment , decrement,comparison, logical, bitwise)
 let a=10
 let b=3
 // arithemic operators
@@ -125,7 +128,7 @@ var hallo=function(){
 // console.log(p); // error
 // let p= 10
 
-// age=prompt("Enter your name: ")
+// age=+prompt("Enter your name: ")
 // if(age>18){
 //     console.log("Adult")
 
@@ -210,7 +213,7 @@ switch(day){
 let Age=prompt("Enter age: ")
 let country=prompt("Enter countary")
 
-if(Age>18 && country=="India"){
+if(Age>=18 && country=="India"){
     console.log("you are eligible to vote")
 }
 else{
