@@ -38,12 +38,19 @@ let list=[
     },
     {
       team:'DC',
-      primary:'sky blue',
+      primary:'blue',
       captain:'AP',
       trophies:0,
       famous: [255, 255, 0]
 
     },
+    {
+      team:'MI',
+      primary:'blue',
+      captain:'HP',
+      trophies:5,
+      famous: [65, 105, 225]
+    }
    
 ]
 let h1=document.querySelector('#h1')
