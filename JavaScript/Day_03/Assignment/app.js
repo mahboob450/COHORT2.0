@@ -1,13 +1,13 @@
 // <!-- Assignment -->
 // 7.Ask user's age and check if eligible to vote
 // let age=prompt("Enter your age: ")
-// if(age>=18){
+// if(age>==18){
 //     console.log("you can vote!")
 // }else{
 //     console.log("Not eligible to vote")
 // }
 
-const { Profiler } = require("react");
+// const { Profiler } = require("react");
 
 // 8. print multiplication table of 5
 // for(i=1;i<=10;i++){
@@ -60,6 +60,7 @@ const { Profiler } = require("react");
 //         break;
 //     }
 //     else{
+//         let password=prompt("Enter your password: ");
 //        console.log("Try again!")
 //        attempt-=1
 //     }

@@ -87,10 +87,10 @@ console.log(x)
 
 // uniary operators
 let count=4
-count++
-console.log(count)
-count--
-console.log(count)
+count++;
+console.log(count);
+count--;
+console.log(count);
 
 console.log(5=="5")
 console.log(5==="5")
@@ -141,7 +141,6 @@ marks=prompt("Enter marks:")
 
 if(marks>=90){
     console.log("A grade")
-
 }
 else if(marks>=75){
     console.log("B grade")
@@ -155,11 +154,11 @@ else{
 
 city=prompt("Enter city:")
 
-if(city=="Bhopal"){
+if(city==="Bhopal"){
     console.log("MP")
 
 }
-else if(city=="Delhi"){
+else if(city==="Delhi"){
     console.log("capital")
 }
 
