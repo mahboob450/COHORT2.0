@@ -16,4 +16,4 @@ var arr=['vedant','abhi','souvik','sumit','ankit','satwik','sarthak']
 var a=Math.floor(Math.random()*arr.length)
 console.log(arr[a])
 
-// Make 
+// Make ipl team list
