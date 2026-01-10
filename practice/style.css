@@ -34,7 +34,7 @@ main .bottom {
   height: 50vh;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   main {
     flex-direction: row;
     background-color: white;
