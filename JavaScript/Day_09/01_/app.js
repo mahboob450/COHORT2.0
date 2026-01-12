@@ -6,7 +6,7 @@ img.addEventListener('dblclick',function(){
     love.style.transform='translate(-50%,-50%) scale(1) rotate(0deg)'
      
     setTimeout(() => {
-        love.style.transform='translate(-50%,-300%) scale(1) rotate(60deg)'
+        love.style.transform='translate(-50%,-350%) scale(1) rotate(60deg)'
      
     }, 800);
     setTimeout(() => {
