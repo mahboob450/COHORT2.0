@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 127, 221);
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+img{
+    height: 400px;
+
+}
