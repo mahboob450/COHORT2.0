@@ -6,15 +6,15 @@
 // forEach() use kar sakte ho
 // Directly map, filter nahi chalte (array methods)
 
-// var allH1=document.querySelectorAll('h1')
-
+var allH1=document.querySelectorAll('h1')
+console.log(allH1)
 // allH1.forEach(function(elem){
 //     // console.log('hello guys!')
 //     console.log(elem.innerHTML)
 //     console.log(allH1[0])
 // })
 
-allH1[2].innerHTML='Bye bye'
+// allH1[2].innerHTML='Bye bye'
 
-var outer=document.querySelector('#outer')
-console.log(outer.childNodes[2])
+// var outer=document.querySelector('#outer')
+// console.log(outer.childNodes[2])
